@@ -2,8 +2,7 @@ package com.wt.controller;
 
 import com.wt.dto.api.Result;
 import com.wt.entity.User;
-import com.wt.service.UserService;
-import com.wt.util.ThreadPoolUtil;
+import com.wt.service.impl.UserServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.annotation.Validated;
@@ -21,11 +20,11 @@ import java.util.List;
 @Api(tags={"用户接口"})
 public class UserController {
     @Resource
-    private UserService userService;
+    private UserServiceImpl userServiceImpl;
     //测试调优参数
     @GetMapping
     @ApiOperation("用户列表")
     public Result<List<User>> page(){
-        return Result.success(userService.list());
+        return Result.success(userServiceImpl.list());
     }
 }

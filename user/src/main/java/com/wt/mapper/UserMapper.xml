@@ -6,7 +6,7 @@
     </sql>
 
     <sql id="baseColumn">
-        id,name,version
+        id,username,password,isAccountNonExpired,isAccountNonLocked,isCredentialsNonExpired,isEnabled
     </sql>
 
 </mapper>

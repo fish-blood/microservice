@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="rm -rf .git" />
+    <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="统一响应报文信息Result">
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/service/UserService.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/src/main/java/com/wt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/src/main/java/com/wt/mapper" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.12706482" />
@@ -69,21 +79,21 @@
       <recent name="com.wt.dto.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\project\microservice\user\src\main\java\com\wt\mapper" />
       <recent name="G:\project\microservice\user\src\main\java\com\wt" />
       <recent name="G:\project\microservice\user\src\main\java\com\wt\dto" />
       <recent name="G:\project\microservice\user\src\main\java\com\wt\service" />
-      <recent name="G:\project\microservice\user\src\main\java\com\wt\mapper" />
       <recent name="G:\project\microservice\user\src\main\java\com\wt\entity" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wt.Dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wt.mapper" />
+      <recent name="com.wt.service.impl" />
       <recent name="com.wt.constant" />
       <recent name="com.wt.util" />
       <recent name="com.wt.enums" />
-      <recent name="com.wt.controller" />
-      <recent name="com.wt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,6 +104,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="user" />
       <extension name="coverage">
@@ -135,7 +156,16 @@
       <workItem from="1693642262634" duration="454000" />
       <workItem from="1693642747424" duration="3991000" />
       <workItem from="1693793241153" duration="2231000" />
+      <workItem from="1693800268535" duration="4597000" />
     </task>
+    <task id="LOCAL-00001" summary="统一响应报文信息Result">
+      <created>1693800310407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693800310407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +181,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="统一响应报文信息Result" />
+    <option name="LAST_COMMIT_MESSAGE" value="统一响应报文信息Result" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
