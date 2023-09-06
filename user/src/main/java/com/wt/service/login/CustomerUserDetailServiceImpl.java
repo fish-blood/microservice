@@ -16,7 +16,7 @@ public class CustomerUserDetailServiceImpl implements UserDetailsService {
 
 
 
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    public  UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         //根据对象查找用户信息
         User user = userService.findUserByUserName(username);
         //判断对象是否为空
