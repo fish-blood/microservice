@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="create pattern study demo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/SingletonPattern.java" afterDir="false" />
+    <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="观察者模式">
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/ProjectShelfServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/ProjectShelfServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,7 @@
       <workItem from="1693902669765" duration="5339000" />
       <workItem from="1693982923409" duration="5990000" />
       <workItem from="1694058779395" duration="10914000" />
-      <workItem from="1694139550220" duration="609000" />
+      <workItem from="1694139550220" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="统一响应报文信息Result">
       <created>1693800310407</created>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693996704340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="观察者模式">
+      <created>1694140712400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694140712400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +204,8 @@
     <MESSAGE value="统一响应报文信息Result" />
     <MESSAGE value="引入springsecurity" />
     <MESSAGE value="create pattern study demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="create pattern study demo" />
+    <MESSAGE value="观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

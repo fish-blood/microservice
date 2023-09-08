@@ -21,10 +21,5 @@ public class ProjectShelfServiceImpl implements Observer{
         //观察者唤醒
         void notifyObserver();
     }
-    class ProductService implements Observer{
-        void update(Coupon coupon);
-    }
-    public interface Observer {
-        void update(Coupon coupon);
-    }
+
 }
