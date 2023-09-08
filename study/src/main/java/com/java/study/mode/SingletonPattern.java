@@ -17,7 +17,7 @@ public class SingletonPattern {
      * sluggard type：when a class is first interfaced,instantiate it
      */
     private volatile static  SingletonPattern singletonPattern;
-    private SingletonPattern(){}
+    public SingletonPattern(){}
 
     /**
      * Hungry man type

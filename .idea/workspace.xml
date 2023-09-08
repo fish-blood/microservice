@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="引入springsecurity">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="create pattern study demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/service/login/CustomerUserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/service/login/CustomerUserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/SingletonPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +82,11 @@
       <recent name="com.wt.Dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.study.mode.FactoryPattern" />
       <recent name="com.wt.mapper" />
       <recent name="com.wt.service.impl" />
       <recent name="com.wt.constant" />
       <recent name="com.wt.util" />
-      <recent name="com.wt.enums" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,7 +151,9 @@
       <workItem from="1693793241153" duration="2231000" />
       <workItem from="1693800268535" duration="5823000" />
       <workItem from="1693902669765" duration="5339000" />
-      <workItem from="1693982923409" duration="3789000" />
+      <workItem from="1693982923409" duration="5990000" />
+      <workItem from="1694058779395" duration="10914000" />
+      <workItem from="1694139550220" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="统一响应报文信息Result">
       <created>1693800310407</created>
@@ -171,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693808483153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create pattern study demo">
+      <created>1693996704340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693996704340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="统一响应报文信息Result" />
     <MESSAGE value="引入springsecurity" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入springsecurity" />
+    <MESSAGE value="create pattern study demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="create pattern study demo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
