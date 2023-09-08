@@ -64,6 +64,5 @@ public class User extends Model<User> implements Serializable, UserDetails {
 
     @TableField(exist = false)
     Collection<? extends GrantedAuthority> authorities;
-    @TableField(exist = false)
-    Collection<Permission> permissionList;
+
 }

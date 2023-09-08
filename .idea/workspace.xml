@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d1b9fcf-11a9-47de-8688-93e8a70a1b52" name="默认变更列表" comment="观察者模式">
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/ProjectShelfServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/ProjectShelfServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/java/study/mode/observer/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/wt/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/wt/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +42,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="delegateBuildToMaven" value="true" />
-  </component>
   <component name="ProjectId" id="2Rs9hprxsIJG6OOXbbT5lat944E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -64,7 +64,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.12706482" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="cn.yiiguxing.plugin.translate" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -95,7 +95,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.study.mode.observer.test" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.study.mode.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -122,6 +135,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,7 +170,7 @@
       <workItem from="1693902669765" duration="5339000" />
       <workItem from="1693982923409" duration="5990000" />
       <workItem from="1694058779395" duration="10914000" />
-      <workItem from="1694139550220" duration="1015000" />
+      <workItem from="1694139550220" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="统一响应报文信息Result">
       <created>1693800310407</created>
@@ -182,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694140712400</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="观察者模式">
+      <created>1694140921601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694140921601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
